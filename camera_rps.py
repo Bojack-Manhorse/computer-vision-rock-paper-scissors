@@ -15,7 +15,7 @@ class RPSGame:
 
     def get_prediction(self):
         """
-        get_prediction runs the function from "RPS_Template_in_funciton" to use to webcam to get an out of rock, paper or scissors, and assigns self.user_choice to it.
+        Runs the function from "RPS_Template_in_funciton" to use to webcam to get an out of rock, paper or scissors, and assigns self.user_choice to it.
         If no input was detected, it will choose one at random.
         """
         model_output = rps.get_input(self.delay)
@@ -32,14 +32,14 @@ class RPSGame:
             
     def get_computer_choice(self):
         """
-        get_computer_choice makes a choice for the computer and sets self.computer_choice equal to it.
+        Makes a choice for the computer and sets self.computer_choice equal to it.
         """
         self.computer_choice = random.choice(self.possibilities)
         print(f"Computer chose {self.computer_choice}")
 
     def get_winner(self, user_choice, computer_choice):
         """
-        This function decided a winner of rock paper scissors given two inputs. It returns +1 if the user_choice player wins, else returns 0
+        Decides a winner of rock paper scissors given two inputs. Returns +1 if the user_choice player wins, else returns 0
         """
         
         if computer_choice == user_choice:
@@ -72,7 +72,7 @@ class RPSGame:
 
 def start_script():
     """
-    script to start playing rock paper scissors.
+    Starts playing rock paper scissors.
     """
     user_input = input("Please enter how many games you would like to play")
     

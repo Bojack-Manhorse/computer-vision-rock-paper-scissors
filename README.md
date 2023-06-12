@@ -1,6 +1,6 @@
 # Computer Vision RPS
 
-## To begin, run python3 comera_rps.py in the terminal (after installing requirements.txt)
+## To begin, run python3 camera_rps.py in the terminal (after installing requirements.txt)
 
 This is a program to play rock paper scissors either via gesturing to the webcam or entering an input from the keyboard. The keyboard implementation simply uses functions to decide a winner once the user selects an input.
 
