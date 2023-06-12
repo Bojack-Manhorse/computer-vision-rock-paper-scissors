@@ -13,8 +13,6 @@ def get_input(delay, verbose = False):
     cap = cv2.VideoCapture(0)
     data = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)
 
-
-
     while time.time() - start_time <= delay:
         current_time = time.time()
 
