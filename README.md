@@ -13,4 +13,4 @@ The file RPS-Template.py runs a script which activates the webcam and runs the m
 The camera_rps.py file plays rock paper scissors until the user wins a set number of times.
 
 
-![Hi!](RPS_Screenshot.png
+![Hi!](RPS_Screenshot.png)
